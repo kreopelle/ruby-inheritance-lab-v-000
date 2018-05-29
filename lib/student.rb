@@ -5,9 +5,10 @@ class Student < User
 
   def initialize
     @knowledge = []
-  end 
+  end
 
+  def learn
+    
 
-  def new
 
 end
