@@ -30,7 +30,7 @@ kayla.learn(some_knowledge)
 steve.learn(some_knowledge)
 
 puts "Today, Kayla learned this important knowledge: '#{kayla.knowledge.join(, )}' from Avi"
-puts "Today, Steve learned this important knowledge: '#{steve.knowledge.join}' from Avi"
+puts "Today, Steve learned this important knowledge: '#{steve.knowledge.join(, )}' from Avi"
 
 =begin
 kayla.learn(some_knowledge)
