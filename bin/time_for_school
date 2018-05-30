@@ -25,11 +25,15 @@ kayla = Student.new
 kayla.first_name = "Kayla"
 kayla.last_name = "Reopelle"
 
+kayla.learn(some_knowledge)
+
+puts "Kayla just learned this important knowledge: '#{kayla.knowledge.first}' from Avi"
+
 =begin
 kayla.learn(some_knowledge)
 steve.learn(some_knowledge)
 kayla.learn(some_knowledge)
 
-puts "Kayla just learned this important knowledge: '#{kayla.knowledge.first}' from Avi"
+
 
 =end
