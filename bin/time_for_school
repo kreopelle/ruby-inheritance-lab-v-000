@@ -29,7 +29,7 @@ kayla.learn(some_knowledge)
 kayla.learn(some_knowledge)
 steve.learn(some_knowledge)
 
-puts "Kayla learned this important knowledge: '#{kayla.knowledge}' from Avi"
+puts "Kayla learned this important knowledge: '#{kayla.knowledge.each {|fact| puts fact}}' from Avi"
 puts "Steve learned this important knowledge: '#{steve.knowledge}' from Avi"
 
 =begin
