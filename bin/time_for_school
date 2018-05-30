@@ -17,8 +17,6 @@ some_knowledge = avi.teach
 
 steve.learn(some_knowledge)
 
-puts "Steve just learned this important knowledge: '#{steve.knowledge.first}' from Avi"
-
 jim = User.new
 jim.first_name = "Jim"
 jim.last_name = "Halpert"
@@ -34,4 +32,4 @@ kayla.learn(some_knowledge)
 
 puts "Kayla just learned this important knowledge: '#{kayla.knowledge.first}' from Avi"
 
-=end 
+=end
